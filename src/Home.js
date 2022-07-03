@@ -55,7 +55,7 @@ function App() {
         {showForm && <Form onAddTask={onAddTask}/>}
         <Tasks tasks={tasks} onDelete={deleteTask} toggleReminder={toggleReminder}/>
         <Routes>
-           <Route path="/about" element={<About />} />
+           <Route path="/about" component={About} />
         </Routes>
        <Footer />
      </div>
